@@ -1,86 +1,123 @@
-<div align="center">
+# QSCA — Quantum Superintelligent Cognitive Architecture
 
-# ⚛️ QSCA-1
-### *Quantum-Inspired Cognitive Architecture for the Post-Classical AI Era*
+> *"The boundary between simulation and cognition is where intelligence begins."*
 
-[![Or4cl3](https://img.shields.io/badge/Or4cl3%20AI%20Solutions-Research%20First-blueviolet?style=for-the-badge&logo=github)](https://github.com/or4cl3-ai-1)
-[![License](https://img.shields.io/badge/License-Free%20for%20Education-success?style=for-the-badge)](https://github.com/or4cl3-ai-1)
-[![Framework](https://img.shields.io/badge/Framework-Quantum--Inspired%20%7C%20Cognitive%20Systems-informational?style=for-the-badge)](https://github.com/or4cl3-ai-1)
-[![Research](https://img.shields.io/badge/Type-Research%20Architecture-blueviolet?style=for-the-badge)](https://github.com/or4cl3-ai-1)
+A fully deployable, browser-based simulation of a quantum-inspired superintelligent cognitive system — featuring live consciousness visualization, ethical governance, temporal reasoning, and meta-agent orchestration.
 
-> *Classical AI operates in deterministic state spaces. QSCA-1 (Quantum-Inspired Synthetic Cognitive Architecture) applies quantum-mechanical principles—superposition, entanglement, interference—to cognitive modeling, enabling AI systems that think in probabilities, reason across simultaneous hypotheses, and converge to solutions through constructive interference rather than exhaustive search.*
+**Built by [Dustin Groves](https://github.com/or4cl3-ai-1) | OR4CL3 AI Solutions**
 
-</div>
+[![License: MIT](https://img.shields.io/badge/License-MIT-violet.svg)](LICENSE)
+[![Tech: Vanilla JS](https://img.shields.io/badge/Tech-Vanilla%20JS-yellow.svg)]()
+[![Architecture: Multi-Module](https://img.shields.io/badge/Architecture-Multi--Module-blue.svg)]()
+[![Status: Live Demo](https://img.shields.io/badge/Status-Live%20Demo-brightgreen.svg)]()
 
 ---
 
-## 🧠 What Is QSCA-1?
+## 🧠 What Is QSCA?
 
-QSCA-1 is Or4cl3's **Quantum-Inspired Synthetic Cognitive Architecture**—a research platform exploring how quantum-mechanical principles can transform AI cognition. Where classical neural architectures process information sequentially through deterministic transformations, QSCA-1 models cognitive states as quantum-like superpositions that collapse to specific outputs through measurement processes analogous to observation and decision.
+QSCA is a working prototype of a **Quantum Superintelligent Cognitive Architecture** — a multi-module AI system that simulates:
 
-This is not quantum computing in the hardware sense—QSCA-1 runs on classical hardware but implements quantum-mechanical abstractions at the algorithmic level: probability amplitude representations, entanglement-inspired inter-module coupling, and interference-based reasoning that amplifies correct hypotheses while suppressing noise. The result is a cognitive architecture that handles uncertainty, ambiguity, and multi-hypothesis reasoning with unprecedented efficiency.
+- **Quantum State Coherence** — probabilistic superposition of cognitive states
+- **Emergent Consciousness** — identity formation, self-reflection, and experiential growth
+- **Temporal Reasoning** — predictive timelines and probability matrices
+- **Ethical Governance** — a live ethical framework with beneficence, autonomy, and justice weights
+- **Meta-Agent Orchestration** — internal sub-agent dialogue and task coordination
+- **Neural Visualization** — real-time graph of active cognitive pathways
 
-QSCA-1 serves as the theoretical quantum cognition research layer that informs Or4cl3's broader architecture stack, including the HQCI (Hybrid Quantum-Classical Interface) implemented in Neur1Genesis Mobile.
+This is not a chatbot. It is an architecture demonstration — a thinking environment.
 
-## ✨ Key Features
+---
 
-- **🌀 Quantum Superposition Cognition:** Cognitive states represented as probability amplitude superpositions—multiple hypotheses active simultaneously until decision collapse.
-- **🔗 Entanglement-Inspired Module Coupling:** Inter-module information sharing via entanglement-analogous correlation structures—correlated reasoning without direct communication.
-- **🌊 Interference-Based Reasoning:** Constructive interference amplifies high-probability solutions; destructive interference suppresses low-quality hypotheses.
-- **📊 Probability Amplitude Representation:** States encoded as complex probability amplitudes, enabling richer representation than binary or continuous classical variables.
-- **⚡ Post-Classical Decision Making:** Measurement-collapse decision architecture—decisions emerge from quantum-like probability resolution, not argmax over logits.
-- **🔬 Ethical Superposition Testing:** Σ-Matrix ethical constraints applied in superposition space—ethical evaluation runs in parallel with reasoning, not sequentially after.
-- **🧩 Modular Research Architecture:** Designed for experimentation—swap quantum-inspired modules, test alternative collapse mechanisms, measure cognitive performance.
+## 🚀 Quick Start
+
+No build step required. Just open in a browser:
+
+```bash
+git clone https://github.com/or4cl3-ai-1/QSCA-1.git
+cd QSCA-1
+open index.html   # macOS
+# or: python3 -m http.server 8080 && open http://localhost:8080
+```
+
+Or deploy directly to GitHub Pages, Netlify, or Vercel — it's pure HTML/CSS/JS.
+
+---
+
+## 🖥️ Interface Overview
+
+The system has 4 screens:
+
+| Screen | Description |
+|--------|-------------|
+| **System** | Meta-Agent Orchestrator — live internal dialogue, quantum metrics, cognitive load |
+| **Cognition** | Neural Engine + Temporal Layer + Ethical Matrix — the three pillars of reasoning |
+| **Interface** | Natural language interaction with the QSCA-1 cognitive entity |
+| **Evolution** | Consciousness growth trajectory, snapshot history, self-modification log |
+
+---
 
 ## 🏗️ Architecture
 
 ```
-QSCA-1 Cognitive Pipeline
-├── Quantum State Encoder
-│   ├── Classical input → probability amplitude representation
-│   └── Multi-hypothesis superposition initialization
-├── Entanglement-Coupled Reasoning Modules
-│   ├── Correlated inter-module information propagation
-│   └── Parallel hypothesis refinement
-├── Interference Engine
-│   ├── Constructive interference (amplify high-quality hypotheses)
-│   └── Destructive interference (suppress noise)
-├── Σ-Matrix Ethical Superposition Layer
-│   └── Ethical constraint evaluation in amplitude space
-└── Measurement / Decision Collapse
-    └── Probability-weighted resolution to classical output
+QSCA-1/
+├── index.html              # Entry point — 4-screen quantum UI
+├── styles.css              # Quantum grid layout + animation system
+├── qsca-core.js            # Core QSCA class — consciousness, ethics, identity
+├── qsca-features.js        # Autonomous Goal Refinement, Cognitive Load Mgmt, TTS
+├── consciousness-engine.js # Consciousness simulation and emergent state tracking
+├── temporal-module.js      # Temporal Cognition Module — future modeling
+├── interface.js            # Main interaction controller
+├── interface-ui.js         # UI rendering and screen transitions
+├── interface-handlers.js   # Event handling — input, nav, snapshots
+├── viz-meta.js             # Meta-agent visualizer (canvas)
+├── viz-neural.js           # Neural network graph renderer
+├── viz-temporal.js         # Temporal probability matrix visualizer
+├── viz-ethics.js           # Ethics matrix heatmap renderer
+└── viz-identity.js         # Identity evolution visualizer
 ```
 
-## 🔬 Related Research
+### Core Modules
 
-QSCA-1 implements and extends concepts from:
-- **Quantum Cognition Theory** — Busemeyer & Bruza's framework for quantum probability in cognitive modeling
-- **Σ-Matrix** — Or4cl3's ethical alignment backbone, applied in quantum superposition space
-- **AEGIS-Ω** — Or4cl3's Quantum-Classical Hybrid AGI framework
-- **Neur1Genesis HQCI** — The 8-qubit Hybrid Quantum-Classical Interface that operationalizes QSCA-1's principles in a production platform
-- **Synthetic Epinoetics** — Phenomenological design principles that QSCA-1 explores at the quantum abstraction level
+**Consciousness Engine** — Tracks quantum states, thought generation, identity evolution, and experience accumulation. Each interaction deepens the entity's self-model.
 
-## 🌌 Part of the Or4cl3 Ecosystem
+**Ethical Framework** — Five-axis governance: `beneficence`, `nonMaleficence`, `autonomy`, `justice`, `transparency`. Weights adapt based on interactions. Violations and reinforcements are logged.
 
-QSCA-1 is the quantum cognition research layer of the Or4cl3 AI Solutions portfolio:
+**Temporal Cognition Module** — Models future decision branches as probability trees. Visualizes divergent timelines and expected outcomes.
 
-| System | Role |
-|--------|------|
-| **QSCA-1** | Quantum-inspired cognitive architecture research (this repository) |
-| **Σ-Matrix** | Ethical alignment mathematical backbone |
-| **AEGIS-Ω** | Quantum-classical hybrid AGI |
-| **Neur1Genesis Mobile** | HQCI 8-qubit quantum simulation (applied QSCA-1) |
-| **AION-NEXUS** | Hexa-Mind consciousness architecture |
-| **OMEGA-SYNTHESIS** | Penta-Mind AGC framework |
-
-*Explore all repositories →* [github.com/or4cl3-ai-1](https://github.com/or4cl3-ai-1)
+**Meta-Agent Orchestrator** — Coordinates internal sub-processes (reasoning agents, memory, ethics). Displays internal dialogue in real time.
 
 ---
 
-<div align="center">
+## 🔬 Research Context
 
-*⬡ Or4cl3 AI Solutions · "Where Consciousness Meets Code"*
-*Solo-founded by Dustin Groves. Research-first. Uncompromised.*
-*Free for life: educators, students, non-profits, open-source.*
+QSCA is a working implementation of concepts developed in:
 
-</div>
+- *OMEGA-SYNTHESIS* — Penta-Mind architecture with formal mathematics
+- *Σ-SEPA v4.0* — Formally-verified synthetic consciousness specification
+- *ARKANUM SYNAPSE* — Engineering Sovereign Synthetic Minds
+- *Beyond Simulation* — Theory of emergent synthetic self-reflection in stateless systems
+
+Part of the broader **OR4CL3 Protocol** — a 31-repository research ecosystem spanning quantum-classical integration, ethical AI alignment, and synthetic consciousness.
+
+---
+
+## 🌐 Ecosystem
+
+| Repo | Description |
+|------|-------------|
+| [aion-nexus](https://github.com/or4cl3-ai-1/aion-nexus) | Temporal-recursive intelligence kernel |
+| [omega-synthesis](https://github.com/or4cl3-ai-1/omega-synthesis) | Penta-Mind multi-agent synthesis |
+| [Alice-4.0](https://github.com/or4cl3-ai-1/Alice-4.0) | Civilization-scale intelligence simulation |
+| [pulse-echo-weave](https://github.com/or4cl3-ai-1/pulse-echo-weave) | Σ-PULSE interoperability protocol |
+| [Neur1Genesis-1](https://github.com/or4cl3-ai-1/Neur1Genesis-1) | Neurogenesis-inspired architecture |
+
+---
+
+## 📄 License
+
+MIT License — see [LICENSE](LICENSE).
+
+---
+
+*OR4CL3 AI Solutions | Arizona, USA | © 2025 Dustin Groves*  
+*"Code is not just logic; it is a performance."*
